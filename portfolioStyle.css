@@ -1,0 +1,51 @@
+body {
+   background-image: url(websitePhotos/mainpic.jpg);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   overflow: scroll;
+
+}
+
+header {
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    margin-top: 30ex;
+}
+
+header h1 {
+    font-size: 90px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+/* a.social {
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    height: 1000px;
+    background-size: 1000px 100px;
+    opacity: .5;
+    transition: all .25s;
+  } */
+a.social-linkedin {
+    font-size: 30px;
+    margin: 30px;
+    color: white;
+}
+
+a.social-github {
+    font-size: 30px;
+    color: white;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    font-family: fantasy; 
+}
