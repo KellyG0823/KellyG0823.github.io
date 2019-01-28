@@ -1,51 +1,264 @@
-body {
-   background-image: url(websitePhotos/mainpic.jpg);
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   height: 100%;
-   overflow: scroll;
-
-}
-
-header {
-    text-align: center;
-    font-family: fantasy;
-    color: white;
-    margin-top: 30ex;
-}
-
-header h1 {
-    font-size: 90px;
-}
-
-header ul li {
-    display: inline-block;
-}
-
-/* a.social {
-    display: inline-block;
-    margin-left: 20px;
-    width: 100px;
-    height: 1000px;
-    background-size: 1000px 100px;
-    opacity: .5;
-    transition: all .25s;
-  } */
-a.social-linkedin {
-    font-size: 30px;
-    margin: 30px;
-    color: white;
-}
-
-a.social-github {
-    font-size: 30px;
-    color: white;
-}
-
-div a {
+.navbar a {
     text-decoration: none;
     color: white;
-    font-family: fantasy; 
+    font-family: cursive;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar .nav-link {
+    font-family: cursive;
+}
+
+main.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url(websitePhotos/mainpic.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+main.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+.masthead {
+    font-family: cursive;
+}
+
+main.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.intro {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+.intro-2 {
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.intro-split {
+    width: 50%;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0;
+    border-top: 3px solid rgb(248, 250, 249);
+    background-color: white;
+}
+
+#header-social {
+    position: relative;
+}
+
+ul.social-buttons li a {
+    display: block;
+    background-color: #222;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+ul.social.buttons {
+    margin-bottom: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#projects {
+    margin-top: 10rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+#projects {
+    font-family: cursive;
+}
+
+#projects .card-block {
+      text-align: left;
+}
+
+#projects .card-block ul {
+    margin-top: -15px;
+}
+
+.card-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+#projects .card-block .btn {
+    background-color: rgb(58, 54, 54);
+    border-color: rgb(58, 54, 54);
+    margin-top: auto;
+    
+}
+
+#projects .project-1 .card-block .btn {
+    margin-block-start: -2rem;
+}
+ 
+.card-title {
+    padding-top: 1rem;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(75,75,75,0.7);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hovereffect:hover .overlay {
+    background-color: rgba(233, 243, 243, 0.4);
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hovereffect:hover h2 {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+  
+  .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    color: rgb(45, 40, 40);
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: 100px 100 100 100;
+    padding: 40px 70px;
+  }
+  
+  .hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+
+
+
+.aboutme {
+    text-align: center;
+    font-family: cursive;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: rgba(71, 72, 72, 0.4);
+}
+
+.about-me-head {
+    padding-bottom: 3rem;
+}
+
+.about-me-info {
+    padding-top: 5rem;
+}
+
+.contactme {
+    text-align: center;
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.contact-split {
+    background-color: white;
+    width: 30%;
+
 }

@@ -10,34 +10,139 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-        <div class="navbar navbar-default bg-dark static-top">
-           
+        <div class="navbar navbar-default bg-dark static-top fixed-top">
             <div class="navbar-header">
                 <a class="nav-link" href="#">Kelly Graustein</a>
             </div>
             <div class="d-flex justify-content-end">
-                <a class="navbar d-flex align-items-center" href="#">Projects</a>   
-                <a class="navbar d-flex align-items-center" href="#">About</a> 
-                <a class="navbar d-flex align-items-center" href="#">Contacts</a> 
+                <a class="navbar d-flex align-items-center" href="#projects">Projects</a>   
+                <a class="navbar d-flex align-items-center" href="#aboutme">About</a> 
+                <a class="navbar d-flex align-items-center" href="#contactme">Contact</a> 
             </div>
         </div>
     
-    
-    <header class="mastHead">
-        <h1>Kelly Graustein</h1>
-            <h3>Web Developer</h3>
-        <ul id="header-social" class="list-inline social-buttons fadeIn">
-            <li>
-            <a class="social-linkedin" target="_blank" href="http://linkedin.com"> 
-                <i class="fab fa-linkedin fab=lg"></i> </a>
-            </li>
-            <li>
-            <a class="social-github" href="http://github.com"> 
-                <i class="fab fa-github"></i> </a>
-            </li>
-    </ul>
-    </header>
+    <main class="masthead text-white text-center">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 mx-auto">
+                    <h1 class="intro mb-5">Kelly Graustein</h1>
+                    <h4 class="intro-2"><em>Web Developer</em></h4>
+                    <hr class="intro-split" />
+                    <ul id="header-social" class="list-inline social-buttons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/kelly-graustein-484a2b60/" target="_blank"> 
+                                <i class="fab fa-linkedin"></i> 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://github.com" target="_blank"> 
+                                <i class="fab fa-github"></i> 
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
    
+    <div id="projects" class="bg-dark-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Projects</h2>
+                        <p class="section-subheading text-muted">Recent practice projects, click on image for link to more information</p>
+                </div>
+            </div>
+        <section class="project-1">
+            <div class="container py-3 bg-light-gray">
+                    <div class="card">
+                      <div class="row ">
+                        <div class="col-md-4">
+                           <div class="hovereffect">
+                            <img class="img-responsive w-100" src="websitePhotos/aroma-aromatic-art.jpg" alt="">    
+                             <div class="overlay">
+                                    <a class="info" href="#">
+                                        Click for More Info
+                                     </a>
+                                </div>
+                            </div>
+                    </div>
+                        <div class="col-md-8 px-3">
+                        <div class="card-block px-3">
+                            <h4 class="card-title">Personal Webpage Portfolio</h4>
+                            <h6 class="project-summary">Summary</h6>
+                            <p class="card-text">A first attempt at designing a webpage to showcase my projects.  </p>
+                            <h6 class="Programming-language">Programming Languages:</h6>
+                            <p class="card-text">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>Bootstrap</li>
+                                    <li>CSS</li>
+                                </ul>
+                            </p>
+                            <a href="#" class="btn btn-primary float-right">Read More</a>
+                        </div>
+                        </div>
+            
+                      </div>
+                    </div>
+            </div>
+        </section>
+            
+        <section class="project-2">
+                <div class="container py-3 bg-light-gray">
+                        <div class="card">
+                            <div class="row ">     
+                            <div class="col-md-4">
+                                <a href="#" class="portfolio-link">
+                                    <div class="portfolio-hover">
+                                <img src="websitePhotos/project-1.jpg" class="w-100">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-8 px-3">
+                            <div class="card-block px-3">
+                                <h4 class="card-title">Title of Second Project</h4>
+                                <p class="card-text">More info to come... </p>
+                                <p class="card-text">More programming languages to be posted here...</p>
+                                <a href="#" class="btn btn-primary float-right">Read More</a>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            </section>     
+        </div>
+    </div>
+
+    <div class="aboutme" id="aboutme">
+        <div class="container">
+        <h1 class="about-me-head">About Me</h1>
+        <img src="websitePhotos/ProfileImage.jpeg" class="rounded-circle" alt="">
+        <p class="about-me-info">I currently work as a Registered Nurse in the Operating Room. I am looking to pursue a new career in Computer Programming, specifically Web Development and spend most of my free time studying. I hope to have several more projects to display in the near future, as well as an improved personal website as my skills progress.</p>
+        </div>
+    </div>
+
+    <div class="contactme" id="contactme">
+        <div class="container">
+            <h1 class="connect-with-me">Connect</h1>
+            <hr width="80%" class="contact-split">
+            <h3 class="email-address">graustke@gmail.com</h3>
+            <ul id="header-social" class="list-inline social-buttons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/kelly-graustein-484a2b60/" target="_blank"> 
+                            <i class="fab fa-linkedin"></i> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://github.com" target="_blank"> 
+                            <i class="fab fa-github"></i> 
+                        </a>
+                    </li> 
+                </ul>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
