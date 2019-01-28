@@ -120,7 +120,7 @@ ul.social.buttons {
 
 #projects {
     margin-top: 10rem;
-    padding: 1.5rem;
+    padding: 3rem;
     text-align: center;
 }
 
@@ -128,8 +128,14 @@ ul.social.buttons {
     font-family: cursive;
 }
 
+.projecs-emphasis {
+    background-color: rgb(58, 54, 54);
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
 #projects .section-heading {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 #projects .section-subheading {
@@ -157,7 +163,7 @@ ul.social.buttons {
 }
 
 #projects .project-1 .card-block .btn {
-    margin-block-start: -2rem;
+    margin-block-start: -1rem;
 }
  
 .card-title {
@@ -260,11 +266,18 @@ ul.social.buttons {
 }
 
 .about-me-head {
-    padding-bottom: 3rem;
+    font-size: 50px;
+}
+
+.about-me-emphasis {
+    background-color: rgba(71, 72, 72, 0.4);
+    width: 30%;
+    margin-bottom: 4rem;
 }
 
 .about-me-info {
     padding-top: 5rem;
+    font-size: 20px;
 }
 
 .contactme {
