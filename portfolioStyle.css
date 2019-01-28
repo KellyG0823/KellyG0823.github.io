@@ -80,6 +80,10 @@ hr {
     position: relative;
 }
 
+#header-social a:hover {
+    color: white;
+}
+
 ul.social-buttons li a {
     display: block;
     background-color: #222;
