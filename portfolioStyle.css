@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar a {
+.navbar, #navbar-header {
     text-decoration: none;
     color: white;
     font-family: Tangerine, serif;
@@ -51,11 +51,11 @@ main.container {
 }
 
 .intro {
-    font-weight: 700;
-    font-size: 85px;
+    font-weight: 400;
+    font-size: 65px;
     line-height: 75px;
     margin-bottom: 50px;
-    font-family: tangerine;
+    font-family: Nanum Gothic;
 }
 
 .intro-2 {
